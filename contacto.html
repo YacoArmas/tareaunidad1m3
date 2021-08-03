@@ -24,7 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/normalize.css" />
-    <link rel="stylesheet" href="CSS/galeria-stylesheets.css" />
+    <link rel="stylesheet" href="CSS/contacto-stylesheets.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -42,45 +42,82 @@
 
       <a href="producciones.html">Producciones</a>
 
-      <a class="active" href="galeria.html">Galeria</a>
+      <a href="galeria.html">Galeria</a>
 
       <a href="novedades.html">Novedades</a>
 
-      <a href="contacto.html">Contacto</a>
+      <a class="active" href="contacto.html">Contacto</a>
     </nav>
     <!-- MAIN -->
     <main class="conteiner">
-      <div class="fotos">
-        <img class="vertical" src="images/galery-photos/_MG_6735.jpg" alt="" />
+      <div class="left">
+        <h3>Contacto rapido</h3>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Nombre</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >E-mail</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="tu-email@ejemplo.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Telefono</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="11-8888-9999"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Mensaje</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Tu mensaje"
+          ></textarea>
+          <input class="enviar-button" type="submit" value="Enviar" />
+        </div>
       </div>
-      <div class="fotos">
-        <img class="vertical" src="images/galery-photos/_MG_6742.jpg" alt="" />
-      </div>
-      <div class="fotos">
-        <img class="vertical" src="images/galery-photos/_MG_6750.jpg" alt="" />
-      </div>
-      <div class="fotos">
-        <img class="vertical" src="images/galery-photos/_MG_6757.jpg" alt="" />
-      </div>
-      <div class="fotos">
-        <img class="vertical" src="images/galery-photos/DSC_0041.jpg" alt="" />
-      </div>
-      <div class="fotos">
-        <img
-          class="horizontal"
-          src="images/galery-photos/DSC_0053.jpg"
-          alt=""
-        />
-      </div>
-      <div class="fotos">
-        <img
-          class="horizontal"
-          src="images/galery-photos/DSC_0063.jpg"
-          alt=""
-        />
+      <div class="right">
+        <h3>Otras vias de comunicacion</h3>
+        <p>Tambien podes contactarnos por:</p>
+        <ul>
+          <li>Telefono: 11-0721-1473</li>
+          <li>
+            Email:
+            <a href="mailto: EramosTanJovenes@gmail.com"
+              >ETJproducciones@gmail.com
+            </a>
+          </li>
+          <li>
+            Instagram: <a href="https://www.instagram.com/">ETJproducciones</a>
+          </li>
+          <li>Twitter: <a href="https://twitter.com">@ETJproducciones</a></li>
+          <li>Youtube: <a href="https://youtube.com">ETJproducciones</a></li>
+        </ul>
+        <p>Nuestras oficinas se encuentran en el pasaje La Nave 314.</p>
       </div>
     </main>
-
     <!-- FOOTER -->
     <footer class="container-fluid">
       <h3>Eramos tan jovenes <span>&copy;</span></h3>

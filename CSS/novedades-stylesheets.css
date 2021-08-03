@@ -11,7 +11,7 @@
 #F0F5F9 white
 #C9D6DF light gray
 #52616B gray
-#1E2022 blacl */
+#1E2022 black */
 
 /* 1280 x 720 */
 
@@ -304,116 +304,29 @@ nav a:hover {
 }
 
 /* MAIN */
-
-main img {
-  width: 1280px;
-  height: 720px;
+main {
+  background-color: #c9d6df;
+  /* padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%; */
+  padding: 5%;
 }
 
-@media (min-height: 1440px) {
-  main img {
-    width: 2204px;
-    height: 1240px;
-  }
+main h2 {
+  color: #52616b;
+  font-family: "Poppins", sans-serif;
 }
 
-@media (max-height: 1080px) {
-  main img {
-    height: 868px;
-  }
+main div h3,
+h4 {
+  font-family: "Poppins", sans-serif;
 }
 
-@media (max-height: 810px) {
-  main img {
-    width: 1244px;
-    height: 700px;
-  }
+main p {
+  color: black;
+  text-align: left;
+  font-family: "Noto Serif", serif;
 }
-
-@media (max-height: 576px) {
-  main img {
-    width: 711px;
-    height: 400px;
-  }
-}
-
-@media (max-width: 768px) {
-  main img {
-    object-fit: cover;
-    height: 852px;
-  }
-}
-
-@media (max-width: 425px) {
-  main img {
-    object-fit: cover;
-    width: 1066px;
-    height: 600px;
-  }
-
-  #submarine {
-    object-position: -300px 0;
-  }
-
-  #people-that-are-not-me {
-    object-position: -320px 0;
-  }
-
-  #pizza-birra-faso {
-    object-position: -130px 0;
-  }
-
-  #lights-out {
-    object-position: -140px 0;
-  }
-}
-
-@media (max-width: 375px) {
-  main img {
-    object-fit: cover;
-    width: 768px;
-  }
-
-  #submarine {
-    object-position: -340px 0;
-  }
-
-  #people-that-are-not-me {
-    object-position: -370px 0;
-  }
-
-  #pizza-birra-faso {
-    object-position: -150px 0;
-  }
-
-  #lights-out {
-    object-position: -130px 0;
-  }
-}
-
-@media (max-width: 320px) {
-  main img {
-    object-fit: cover;
-    height: 500px;
-  }
-
-  #submarine {
-    object-position: -370px 0;
-  }
-
-  #people-that-are-not-me {
-    object-position: -400px 0;
-  }
-
-  #pizza-birra-faso {
-    object-position: -170px 0;
-  }
-
-  #lights-out {
-    object-position: -150px 0;
-  }
-}
-
 /* FOOTER */
 
 footer {
